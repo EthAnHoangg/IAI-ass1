@@ -1,0 +1,3 @@
+algorithm,best_cost,mean_cost,std_cost,mean_runtime_seconds,mean_steps_to_best,mean_evals_to_best
+Simulated Annealing,8742.3,9708.81,624.6703537866995,0.08141707409813534,4932.6,4932.6
+Genetic Algorithm,8742.3,10224.82,568.4539925095085,0.11355756579723675,33,3300

@@ -1,0 +1,18 @@
+{
+  "n_trials": 10,
+  "seed": 42,
+  "sa_config": {
+    "alpha": 0.9995,
+    "min_temperature_fraction": 0.0001,
+    "max_iterations": 20000
+  },
+  "ga_config": {
+    "population_size": 100,
+    "tournament_size": 3,
+    "crossover_rate": 0.9,
+    "mutation_rate": 0.02,
+    "elite_count": 2,
+    "max_generations": 300,
+    "no_improvement_stop": 50
+  }
+}

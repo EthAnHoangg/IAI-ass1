@@ -26,9 +26,7 @@ report/                    # written report, notebook, rubric
 
 ## Setup
 
-Requires Python 3.13+ and [uv](https://docs.astral.sh/uv/). The `pyproject.toml`
-and `uv.lock` live one directory up, in the parent `IAI/` workspace (not part
-of this repo) — `uv run`/`uv sync` auto-discover it from inside this folder:
+Requires Python 3.13+ and [uv](https://docs.astral.sh/uv/).
 
 ```bash
 uv sync
@@ -38,8 +36,6 @@ Copy `.env.example` to `.env` and set `GOOGLE_MAPS_API_KEY` if re-running the
 geocoding scripts in `data_collection/`.
 
 ## Usage
-
-Run from this directory (`ass1/`), since scripts use paths relative to it:
 
 ```bash
 # One-off: fetch and cache the walking-distance matrix from OSRM
